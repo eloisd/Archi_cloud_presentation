@@ -1,0 +1,2120 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="reveal/dist/reset.css">
+		<link rel="stylesheet" href="reveal/dist/reveal.css">
+		<link rel="stylesheet" href="reveal/dist/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate>
+                    <section data-auto-animate data-markdown id="title">
+                        <textarea data-template>
+                            # AAP : IA Générative
+
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="title-2">
+                        <textarea data-template>
+                            # AAP : IA Générative
+
+                            ### Accélérer l'usage de l'IA générative dans l'économie
+
+                            Emis le Vendredi 5 avril 2024
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="précision">
+                        <textarea data-template>
+                            **Cette présentation** est la présentation **longue** avec beaucoup d'informations
+                            si vous voulez la **version succincte**, cliquez [ici](index.html)
+                        </textarea>
+                    </section>
+                </section>
+                <section data-auto-animate>
+                    <section data-auto-animate data-markdown id="sommaire">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [1.](#/contexte-et-objectif) I) Contexte et Objectifs
+
+                                * [1.1](#/ambitions) Ambitions
+
+                                * [1.2](#/type-d'acteurs) Types d'acteurs
+
+                            * [2.](#/projets-attendus) II) Projets attendus
+
+                                * [2.1](#/nature-des-projets) Nature des projets
+
+                                    * [2.1.1](#/briques-technologiques) Briques technologiques
+
+                                    * [2.1.2](#/conditions-à-vérifier) Conditions à vérifier
+
+                                        * Pour les briques [1.&2.](#/1.-2.), [3.](#/3.), [4.&5.](#/4.-5.), [8.](#/8.), [9.](#/9.)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-2">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [2.](#/projets-attendus) II) Projets attendus
+
+                                * [2.1](#/nature-des-projets) Nature des projets
+
+                                    * [2.1.3](#/les-chiffres) Les chiffres
+
+                                * [2.2](#/porteur-de-projets) Porteur de projets
+
+                                * [2.3](#/travaux-et-dépenses-éligibles) Travaux et dépenses éligibles
+
+                                * [2.4](#/modalités-de-financement) Modalités de financement
+
+                                    * [2.4.1](#/aides-proposées-pour-les-activités-de-recherche-et-développement) Aides proposées pour les activités de recherche et développement
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-3">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [2.](#/projets-attendus) II) Projets attendus
+
+                                * [2.4](#/modalités-de-financement) Modalités de financement
+
+                                    * [2.4.2](#/articulation-avec-les-programmes-européens) Articulation avec les programmes européens
+
+                            * [3.](#/processus-de-sélection) III) Processus de sélection
+
+                                * [3.1](#/critères-d'éligibilité) Critères d'éligibilité
+                                
+                                * [3.2](#/cds-pertinence) Critères de sélection
+
+                                    * [3.2.1](#/cds-pertinence) Pertinence
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-4">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [3.](#/processus-de-sélection) III) Processus de sélection
+                                
+                                * [3.2](#/cds-pertinence) Critères de sélection
+
+                                    * [3.2.2](#/cds-montage-du-projet) Montage du projet
+                                    * [3.2.3](#/cds-structure-du-projet) Structure du projet
+                                    * [3.2.4](#/cds-indicateur-clé-de-performance-et-plan-de-financement) Indicateur clé de performance
+                                    * [3.2.5](#/cds-indicateur-clé-de-performance-et-plan-de-financement) Plan de financement
+                                    * [3.2.6](#/cds-innovation) Innovation
+                                    * [3.2.7](#/cds-infrastructures) Infrastructures
+                                    * [3.2.8](#/cds-accessibilité) Accessibilité
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-5">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [3.](#/processus-de-sélection) III) Processus de sélection
+                                
+                                * [3.2](#/cds-pertinence) Critères de sélection
+
+                                    * [3.2.9](#/cds-aspects-de-confiance-/-données-personnelles-/-robustesse-/-compliance-AI-Act,-etc) Aspects de confiance / Données personnelles / Robustesse / Compliance AI Act
+                                    * [3.2.10](#/cds-impacts-environnementaux) Impacts environnementaux
+                                    * [3.2.11](#/cds-réplicabilité-de-la-solution-finale) Réplicabilité de la solution finale
+                                    * [3.2.12](#/cds-pertinence-du-modèle-d'affaires) Pertinence du modèle d'affaires
+                                    * [3.2.13](#/cds-impacts-socio-économiques) Impacts socio-économiques
+                                    * [3.2.14](#/cds-cybersécurité) Cybersécurité
+
+                                * [3.3](#/pré-sélection) Processus de sélection
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-6">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [3.](#/processus-de-sélection) III) Processus de sélection
+
+                                * [3.3](#/pré-sélection) Processus de sélection
+                                    
+                                    * [3.3.1](#/pré-sélection) Pré-sélection
+                                    * [3.3.2](#/sélection-et-instruction) Sélection
+                                    * [3.3.3](#/sélection-et-instruction) Instruction
+
+                            * [4.](#/mise-en-œuvre,-suivi-des-projets-et-allocation-des-fonds) IV) Mise en œuvre, suivi des projets et allocation des fonds
+
+                                * [4.1](#/conventionnement) Conventionnement
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-7">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [4.](#/mise-en-œuvre,-suivi-des-projets-et-allocation-des-fonds) IV) Mise en œuvre, suivi des projets et allocation des fonds
+
+                                * [4.1](#/conventionnement) Conventionnement
+
+                                * [4.2](#/suivi-des-projets-et-étapes-d'allocation-des-fonds) Suivi des projets et étapes d'allocation des fonds
+
+                                * [4.3](#/communication) Communication
+
+                                * [4.4](#/conditions-de-reporting) Conditions de reporting
+
+                            * [5.](#/ia-générative) IA Générative
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-8">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [5.](#/ia-générative) IA Générative
+
+                                * [5.1](#/définitions-tech) Définitions
+
+                                * [5.2](#/fine-tuning) Fine Tuning
+
+                                * [5.3](#/function-calling) Function Calling
+
+                            * [6.](#/explications-administratives-et-financières) Explications administratives et financières
+
+                                * [6.1](#/trl) TRL
+
+                                * [6.2](#/licenses-open-source) Licenses Open Source
+
+                                    * [6.2.1](#/licenses-permissives) Licenses permissives
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sommaire-9">
+                        <textarea data-template>
+                            ## Sommaire
+
+                            * [6.](#/explications-administratives-et-financières) Explications administratives et financières
+
+                                * [6.2](#/licenses-open-source) Licenses Open Source
+
+                                    * [6.2.2](#/licenses-copyleft) Licenses copyleft
+
+                                * [6.3](#/les-catégories-d'entreprises-par-taille) Les catégories d'entreprises par taille
+
+                                * [6.4](#/outils-de-calcul-de-l'impact-environnemental) Outils de calcul de l'impact environnemental
+
+                                * [6.X](#/recherche-contractuelle) Définitions
+
+                                * [6.5](#/critères-de-performance-environnementale) Critères de performance environnementale
+                        </textarea>
+                    </section>
+                </section>
+                <section data-auto-animate>
+                    <section data-auto-animate data-markdown id="contexte-et-objectif">
+                        <textarea data-template>
+                            ## I) Contexte et Objectifs
+
+                        </textarea>
+					</section>
+                   <section data-auto-animate data-markdown id="contexte-et-objectif-2">
+                        <textarea data-template>
+                            ## I) Contexte et Objectifs
+
+                            * Solution d'IA générative intégrée
+
+                                * Niveau de fonctionnalités avancées
+                                * Adoption court terme
+
+                            * Rapprochement entre développeurs et utilisateurs
+
+                                * Développer des démonstrateurs à terme réplicable et économiquement viable
+
+                            * Encourage les développeurs dans la prise de risque dans 
+                            la pénétration de marchés et le ciblage de cas d'usages métiers
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="ambitions">
+                        <textarea data-template>
+                            * I) Contexte et Objectifs 
+                            ### Ambitions
+
+                            * Récompense les primo adoptants de cette technologie
+
+                            * Offre d'une solution d'IA Française spécialisée
+
+                                * Par secteur ou fonction d'entreprise
+
+                            * Adoption de l'IA générative par les entreprises
+
+                            * Composantes technologiques réplicables
+
+                            * Soutenir l'établissement de nouveaux partenariats et consortium entres acteurs
+                       </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="ambitions-2">
+                        <textarea data-template>
+                            * I) Contexte et Objectifs 
+                            ### Ambitions
+
+                            * Développement dans l'économie d'une Culture et d'un socle de Connaissances en IA
+
+                            * L'aide publique doit être justifiée & avérée par le potentiel réplicable, de la 
+                            solution ou certaine de ces briques et par la mise en accéssibilité libre et commerciale
+
+                            * Consortium
+
+                                * Nécessite des acteurs complémentaires
+
+                                    * Développeurs & Acteurs métiers
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="type-d'acteurs">
+                        <textarea data-template>
+                            * I) Contexte et Objectifs 
+                            ### Type d'acteurs
+
+                            * **données**, constitution et entretien de BDD
+                            
+                            * **modèle**, spécialisation des modèles
+                            
+                            * **déploiement & intégration**, hébergement, MLOps
+                            
+                            * **application**, IA, interaction avec les modèles (API)
+                            
+                            * **évaluation**, garantir la robustesse
+                            
+                            * **usagers**, utilisateur en conditions réelles
+                            
+                            * **coordination**, facilitateur d'adoption, conformité, réglementation et normes
+                        </textarea>
+                    </section>
+                </section>
+                <section data-auto-animate>
+                    <section data-auto-animate data-markdown id="projets-attendus">
+                        <textarea data-template>
+                            ## II) Projets attendus 
+                        </textarea>
+					</section>
+                    <section data-auto-animate data-markdown id="nature-des-projets">
+                        <textarea data-template>
+                            * II) Projets attendus 
+                            ### Nature des projets
+
+                            - Démo d'IA avancées, compétitive et économiquement viable
+
+                            - Intégration facile
+
+                                - Interface de haut niveau, intuitive et naturelle
+
+                            - Adaptation au métier, et éventuellement agentification
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="briques-technologiques">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Briques technologiques
+
+                            1. BDD massives génériques, systèmes de gestion de ces données
+
+                            2. Modèles d'IA génératifs pré-entrainés
+
+                            3. BDD (réelles ou synthétiques) spécialisées, systèmes de gestion de ces données pour des secteurs visés
+
+                            4. Modèles spécifiques au secteur et cas d'usage métier
+
+                            5. Modèles spécialisés et contextualisés à une entreprise
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="briques-technologique-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Briques technologiques
+
+                            6. Outils d'évaluation d'IA, éthique, environementale
+
+                            7. Plateformes logicielle de déploiement des briques technologiques
+
+                            8. API
+
+                            9. Interface homme-machine qui s'intègre dans le flux de travail des métiers
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="conditions-à-vérifier">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier
+
+                            * Aide publique que pour l'aval de la chaine de valeur  
+                            -> 3. à 9.
+
+                                * 1. et 2. sont seulement un bonus
+                            
+                            * 5. Comme le modèle est constitué de données privées
+                            
+                                * Avantage concurrentiel pour les usagers de la solution
+                            
+                                * Donc pas de réplication demandée
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="conditions-à-vérifier-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier
+                            
+                            * 4. 7. 8. et 9. nécessitent une possibilité de réplication
+                            
+                                * En commercialisation ou libre accès
+
+                                * Explicitée et appuyée
+                            
+                                    * Modèle de commercialisation prévue
+                            
+                                    * Perspectives économiques envisagées
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="1.-2.">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 1. & 2.
+
+                            * Justification attendue du choix des modèles et BDD choisis
+
+                            * Toutes les BDD devront impérativement être:
+
+                                * Conforme :
+
+                                    * Au RGPD
+
+                                    * A la réglementation des droits d'auteur
+
+                                * Filtrées de contenu toxiques conformément aux normes de l'organisation 
+                                internationale du travail
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="1.&2.-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 1. & 2.
+
+                            * Attention particulière accordée à :
+
+                                * La performance en français et langue européennes
+
+                                * La robustesse du modèle 
+
+                                    * Biais
+
+                                    * Taille de l'environnement de fonctionnement
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="1.&2.-3">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 1. & 2.
+
+                            * Attention particulière accordée à :
+    
+                                * La résilience du modèle
+
+                                    * Capacité à fonctionner en dehors de l'environnement prévu
+
+                                * La frugalité
+
+                                    * En données & en consommation électrique pour l'entrainement et l'inférance          
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="1.&2.-4">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Exemple pour 1. et 2.
+
+                            * Choix du modèle
+
+                                * Mistral (Mistral 7b ou Mixtral 8x7b)
+
+                                * Llama (Llama 3 32b ou Llama 2 72b)
+
+                            * Choix de la BDD
+
+                                * OpenOrca
+
+                                    * 6% de Orca de Microsoft
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="3.">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 3. BDD spécialisées
+
+                            * Pour les données sensibles
+
+                                * Secteurs médicaux, bancaire et autre
+
+                                * Exigence de conformité réglementaire particulièrement forte
+
+                            * Attente notamment sur :
+
+                                * Des actions de collecte, de regroupement, de nettoyage, d'annotation, 
+                                de qualification des BDD
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="3.-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 3. BDD spécialisées
+
+                            * Attente notamment sur :
+    
+                                * Encourage à des prestations visant à vérifier la conformité réglementaire des BDD
+
+                            * Appréciation du
+
+                                * Caractère inédit de la BDD
+
+                                * Grand volume de la BDD
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="3.-3">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 3. BDD spécialisées
+
+                            * Constitutive du patrimoine français, francophone et européen
+
+                                * Géographique, Archives, Relative aux œuvres d'art
+
+                                * Encouragé
+
+                                * Avec le détenteur des données
+
+                            * Pas de données générées par IA sauf pour les BDD synthétiques
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="4.-5.">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 4. & 5. modèles spécialisés
+
+                            * Positionnement sur les tâches métier à forte valeur ajoutée
+
+                                * Là où les modèles sont moins performants en France qu'ailleurs
+
+                                    * Ex: droit français, références culturelles et sociales françaises
+
+                                        * Réglementation et législation
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="4.-5.-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 4. & 5. modèles spécialisés
+                            ##### Réentrainement encouragé sur des modèles :
+
+                            * Génératifs sur des BDD de tous type 
+
+                                * Texte, image, vidéo, fréquences
+
+                                * Permettre une spécialisation pour répondre à un métier précisément identifié
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="4.-5.-3">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 4. & 5. modèles spécialisés
+                            ##### Réentrainement encouragé sur des modèles :
+
+                            * Linguistique pour améliorer substantiellement les performances en français ou 
+                            langue nationale ou régionale de l'UE
+
+                                * Voc métier (jargon)
+
+                                * Représentatif d'une variété d'usages, de locuteurs de la francophonie 
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="4.-5.-4">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 4. & 5. modèles spécialisés
+                            ##### Réentrainement encouragé sur des modèles :
+
+                            * Linguistique sur une BDD de langage informatique pour un avantage concurrentiel pour 
+
+                            * l'ensemble des entreprises d'un secteur 
+                            
+                                * Economique ou 
+                                
+                                * Industriel ou
+
+                            * Avec un intérêt social avéré
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="4.-5.-5">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 4. & 5. modèles spécialisés
+                            ##### Réentrainement encouragé sur des modèles :
+
+                            * Générative pour 
+
+                                * La constitution ou l'amélioration de BDD (Transcription, légende d'image, …)
+
+                                * L'optimisation (Distillation, couplage à une BDD pour la recherche documentaire)
+
+                                * L'alignement des modèles ([RLHF](#/rlhf), prompt engineering)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="8.">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 8. API
+                            
+                            * Attention sur la simplification de l'utilisation du logiciel
+
+                                * Optimisation de la robustesse
+
+                                * Sécurité du système final
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="9.">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 9. Interface homme-machine
+
+                            * Création d'une expérience utilisateur optimale et innovante
+
+                                * Accompagner à la réalisation de tâches complexes
+
+                            * Expérience utilisateur 
+
+                                * fluide, conviviale, sécurisé, 
+                                
+                                * adaptée aux besoins & aux attentes d'un secteur ou d'une fonction d'entreprise des utilisateurs finaux
+                       </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="9.-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 9. Interface homme-machine
+
+                            * Le développement de l'interface permettra à certains partenaires du projet de 
+                            commercialiser 1 ou plusieurs contenus ou services innovants
+
+                                * But 2nd : Inciter les acteurs du marché à suivre la dynamique enclenchée
+ 
+                            * Démontrer la capacité à
+
+                                * Rapidement positionner les acteurs nationaux sur les applications d'IA génératives
+                       </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="9.-3">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 9. Interface homme-machine
+
+                            * Démontrer la capacité à
+
+                                * Garantir la réplicabilité pour un large ensemble d'acteurs 
+                                (Entreprise ou Administration publique)
+
+                                * Concernant ce qui est associé à l'IA, il faut :
+
+                                    * Garantir la stratégie de développement adoptée
+
+                                        * Choix des [licences](#/licenses-open-source) de BDD & modèle, choix des modèles 
+                                        pré-entrainés pour le [fine-tuning](#/fine-tuning), plateforme de partage, …
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="9.-4">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 9. Interface homme-machine
+
+                            * Démontrer la capacité à
+
+                                * Concernant ce qui est associé à l'IA, il faut :
+
+                                    * Répondre aux enjeux de souveraineté,
+
+                                        * Limitation des dépendances
+                                        
+                                        * Sécurisation & confidentialité des données
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="9.-5">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Conditions à vérifier 9. Interface homme-machine
+
+                            * Démontrer la capacité à
+
+                                * Concernant ce qui est associé à l'IA, il faut :
+
+                                    * Répondre aux enjeux de confiance et de conformité réglementaire
+
+                                        * Choix des stratégies et méthodologies d'annotation pour 
+                                        assurer la traçabilité de la propriété intellectuelle et 
+                                        de la responsabilité, …
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="les-chiffres">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Les chiffres
+
+                            * Date limite de dépôt des dossiers
+
+                                * 12h00 le 2 juillet 2024
+
+                            * Le projet devra :
+
+                                * Présenter une assiette de travaux comprise entre 1 & 5 M€
+
+                                * Viser un niveau [TRL](#/trl) entre 6 & 8
+
+                                    * Démonstrateurs de l'usage de l'IA générative économiquement viable
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="les-chiffres-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Les chiffres
+
+                            * Le projet devra :
+
+                                * Durer entre 12 & 36 mois
+
+                                    * Les projets à impact rapide sont favorisés
+
+                                * Ne pas avoir débuté avant le dépôt complet du dossier
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="détail-du-dossier">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Détail du dossier
+
+                            * Le dossier déposé devra présenter
+
+                                * Une auto-évaluation de l'impact environnemental du projet
+
+                                    * Cf. § "[Critères de sélection](#/cds-pertinence)"
+
+                                    * Méthodologie utilisée pour les résultats dans l'auto-évaluation
+
+                                        * A présenter obligatoirement
+
+                                * La localisation des serveurs                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="détail-du-dossier-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Nature des projets
+                            #### Détail du dossier
+
+                            * Le dossier déposé devra présenter
+
+                                * Appui obligatoire sur l'outil [Green Algorithms](#/outils-de-calcul-de-l'impact-environnemental) 
+                                ([GT, Lannelongue et al ; Jay et al](#/outils-de-calcul-de-l'impact-environnemental)) lorsque cet outil le permet
+
+                                    * Pour le calcul de l'impact environnemental
+
+                            * Efforts verts seront valorisés
+
+                                * Écoconception, recyclabilité, maîtrise des consommations 
+                                énergétiques et des ressources                          
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="porteur-de-projets">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Porteurs de projets
+
+                            * Consortium (public & privé)
+                            
+                                * Tous ont un intérêt dans le développement ou l'adoption d'IA générative intégrée
+                            
+                                * Présence d'un acteur usager métier identifié
+                            
+                                    * Au plus proche de la chaîne de valeur
+                            
+                                    * Adopte la solution financée dans
+                            
+                                        * Son flux de travail ou
+                            
+                                        * Son outil de production                            
+                       </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="porteur-de-projets-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Porteurs de projets
+
+                            * Consortium (public & privé)
+                            
+                                * Initiative
+                            
+                                    * Implique le plus grand nombre d'acteurs avec un intérêt 
+                                    pour l'implication et l'accélération de solutions d'IA génératives
+                            
+                                    * Dans les secteurs avec un usage émergent d'IA spécialisées
+                            
+                                * Implique la possibilité d'avoir à mener des 
+                                travaux de recherche et de développement poussés
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="porteur-de-projets-3">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Porteurs de projets
+                            
+                            * Consortium (public & privé)
+                            
+                                * Chef de file (CAD42)
+                            
+                                    * Tout type de porteur (Entreprise ou Organisme de recherche)                                
+                            
+                                * Partenariat entreprise de R&D et Institut de recherche public
+                            
+                                    * Encouragé
+                            
+                                    * Pour plus de sophistication                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="porteur-de-projets-4">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Porteurs de projets
+                            
+                            * Ciblage de secteur économique par les projets
+                            
+                                * Liste non exhaustive
+                            
+                                    * Tous
+                            
+                                    * Droit, santé, métiers du chiffre (audit, comptabilité, …), 
+                                    **développement logiciel**, fonctions administratives ou transverses 
+                                    des Entreprises (recherche documentaire, ressources humaines, 
+                                    relation client ou prospect)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="porteur-de-projets-5">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Porteurs de projets
+                            
+                            * Ciblage de secteur économique par les projets
+                            
+                                * Liste non exhaustive
+                            
+                                    * **Applications industrielles**
+                            
+                                        * Conception automatisée par ordinateur
+                            
+                                        * Conception de circuits électroniques, de matériaux, de molécules, de protéines végétales
+                            
+                                        * **Agents génératifs** couplés ou non avec des systèmes mécatroniques                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="travaux-et-dépenses-éligibles">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Travaux et dépenses éligibles
+                            
+                            * Aide publique que pour la brique finale, 9. et les autres briques 
+                            en aval, 8. à 3. (pas pour 1. et 2.)
+                            
+                            * Détail du plan de financement (notamment pour les briques de l'aval) comprendra les
+                            
+                                * Instruments de financement
+                            
+                                * Investissements en fonds propres et quasi-fonds propres
+                            
+                                * Mesures d'aides déjà octroyées                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="travaux-et-dépenses-éligibles-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Travaux et dépenses éligibles
+                            
+                            * Frais de personnel (salaire chargé non environné)
+                                
+                                * Chercheur, ingénieur, technicien et autre personnel d'appui
+                                
+                            * Frais connexes
+                            
+                            * Achat et location de matériel informatique
+                            
+                                * Calcul, stockage
+                            
+                                * Pour la durée du projet
+                                
+                            * Contribution aux amortissements
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="travaux-et-dépenses-éligibles-3">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Travaux et dépenses éligibles
+                            
+                            * Coûts de sous-traitance liée aux activités R&D
+                            
+                            * Coûts des bâtiments et des terrains
+                            
+                            * Coûts de la [recherche contractuelle](#/recherche-contractuelle) des connaissances et des brevets 
+                            achetés ou pris sous licence à des conditions de [pleine concurrence](#/pleine-concurrence)
+                            
+                            * Frais généraux additionnels et d'exploitation
+                            
+                                * Ajoutés aux frais connexes, 20 % (max) des frais de personnels                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="travaux-et-dépenses-éligible-4">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Travaux et dépenses éligibles
+                            
+                            * Les coûts et dépenses éligibles varient en fonction de la nature de chaque projet selon les Modalités de financement
+                            
+                            * La contribution d'un partenaire représentant moins de 5 % ou moins de 200 k€ sera prise en charge en sous-traitance
+                            
+                            * Les dépenses sont éligibles à partir du 3 Juillet 2024                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="modalités-de-financement">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Modalités de financement
+                            
+                            * L'intervention publique s'effectue dans le respect de la réglementation de l'Union européenne
+                            
+                            * Régimes d'aides d'État pour la période 2024-2026 
+                            
+                                * recherche, au développement et à l'innovation
+                            
+                                * en faveur des PME 
+                            
+                                * en faveur de l'accès des PME au financement
+                            
+                                * protection de l'environnement
+                            
+                                * Plus d'infos [ici](#/régimes-d'aides-d'état)                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="modalités-de-financement-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                            ### Modalités de financement
+                            
+                            * Aides proposées pour les activités économiques
+                            
+                                * Financement partiel des dépenses éligibles
+                            
+                            * Aides proposées pour les activités non économiques
+                            
+                                * Organisme de recherche avec une activité prépondérante dans la R&D
+                            
+                                    * 50% des coûts complets
+                            
+                                    * 100% des coûts marginaux                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="aides-proposées-pour-les-activités-de-recherche-et-développement">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Modalités de financement
+                            #### Aides proposées pour les activités de recherche et développement
+                            
+                            |Type de recherche|[PE](#/les-catégories-d'entreprises-par-taille)|[ME](#/les-catégories-d'entreprises-par-taille)|[GE ou ETI](#/les-catégories-d'entreprises-par-taille)|
+                            |-----------------|:---------:|:---------:|:----------------:|
+                            |**Recherche Industrielle ([TRL 2 à 4](#/trl))**|70%|60%|50%|
+                            |Remplissant un ou plusieurs critères de mise en valeur|80%|75%|65%|
+                            |Dans une zone assistée de [type "c"](#/zone-c)|75%|65%|55%|
+                            <!--|***Recherche Fondamentale ([TRL 1](#/trl))***|100%|100%|100%|-->
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="aides-proposées-pour-les-activités-de-recherche-et-développement-2">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Modalités de financement
+                            #### Aides proposées pour les activités de recherche et développement
+
+                            |Type de recherche|[PE](#/les-catégories-d'entreprises-par-taille)|[ME](#/les-catégories-d'entreprises-par-taille)|[GE ou ETI](#/les-catégories-d'entreprises-par-taille)|
+                            |-----------------|:---------:|:---------:|:----------------:|
+                            |**Développement Expérimental ([TRL 5 à 8](#/trl))**|45%|35%|25%|
+                            |Remplissant un ou plusieurs critères de mise en valeur|60%|50%|40%|
+                            |Dans une zone assistée de type [zone "c"](#/zone-c)|50%|40%|30%|
+                            |**Etude de faisabilité**|70%|60%|50%|
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="aides-proposées-pour-les-activités-de-recherche-et-développement-3">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Modalités de financement
+                            #### Aides proposées pour les activités de recherche et développement
+                            ##### Critères de mise en valeur
+                            * Dans le cadre d'une [collaboration effective](#/collaboration-effective) et/ou 
+                            * En cas d'une [large diffusion](#/large-diffusion) des résultats du projet et/ou  
+                            * Si  le  bénéficiaire s'engage à [rendre disponibles les licences pour les résultats de la recherche](#/rendre-disponibles-les-licences-pour-les-résultats-de-la-recherche) et/ou 
+                            * Si le projet est réalisé en région assistée de type [zone "a"](#/zone-a) 
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="aides-proposées-pour-les-activités-de-recherche-et-développement-4">
+                        <textarea data-template>
+                            * II) Projets attendus
+                                * Modalités de financement
+                            #### Aides proposées pour les activités de recherche et développement
+
+                            <!--* Le pourcentage dans les tableaux précédents est le taux d'aides sur les dépenses éligibles-->
+
+                            * L'aide apportée aux activités sera constituée de subventions et d'avances remboursables : 
+                                * Dépenses de recherche industrielle : 80% de subventions, 20% d'avances remboursables ; 
+                                * Dépenses de développement expérimental : 60% de subventions, 40% d'avances remboursables
+
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="articulation-avec-les-programmes-européens">
+                        <textarea data-template>
+                            ** II) Projets attendus
+                                * Modalités de financement
+                            #### Articulation avec les programmes européens
+                            
+                            * L'AAP peut être cumulé avec d'autres AAP européens
+                            
+                            * Dépôt d'abord de l'AAP européen puis du français
+                            
+                            * Fournir l'annexe technique de l'AAP européen avec une présentation diaporama
+                            
+                            * La décision au niveau nationale est conditionnée à la sélection au niveau européen
+                            
+                            * Par exemple la convergence entre l'IA générative et la robotique est encouragée
+                        </textarea>
+                    </section>
+                </section>
+                <section data-auto-animate>
+                    <section data-auto-animate data-markdown id="processus-de-sélection">
+                        <textarea data-template>
+                            ## III) Processus de sélection
+                        </textarea>
+					</section>
+                    <section data-auto-animate data-markdown id="critères-d'éligibilité">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                            ### Critères d'éligibilité
+
+                            * Être complet au sens administratif 
+                            
+                            * Être soumis :
+                                * Dans les délais, 
+                                * Au format imposé, 
+                                * Sous forme électronique via la plateforme de Bpifrance 
+                            
+                            * Répondre aux objectifs attendus et [indiqués](#/critères-de-sélection)
+                            
+                            * Respect des contraintes indiquées (notamment relatives au montant d'assiette de dépenses)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="critères-d'éligibilité-2">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                            ### Critères d'éligibilité
+
+                            * Porter sur des travaux 
+                                
+                            * Réalisés en France 
+                                
+                                * Non-engagés avant le dépôt de la demande d'aide
+
+                            * Consortium composé uniquement de partenaires éligibles à recevoir des aides publiques
+                                
+                                * les partenaires doivent 
+                                   
+                                    * être à jour de leurs obligations fiscales et sociales
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="critères-d'éligibilité-3">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                            ### Critères d'éligibilité
+
+                            * Consortium composé uniquement de partenaires éligibles à recevoir des aides publiques
+                                
+                                * les partenaires doivent 
+                                   
+                                    * ne pas être sous le coup de la récupération d'aides déclarées illégales ou incompatibles par la Commission européenne
+                                    
+                                    * ne pas avoir le statut d'[entreprise en difficulté](#/entreprise-en-difficulté) au sens de la réglementation européenne des aides d'Etat
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-pertinence">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Pertinence
+
+                            * Pertinence au regard
+                                * De l'appel à projets
+                                * Des exigences clés de souveraineté et d'impact 
+                                * De réplication par le marché. 
+                            * Justification des opportunités économiques générées 
+                                * Grâce à une analyse de marché.
+                            * Contribution du projet à la valorisation du patrimoine national de données. 
+
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-montage-du-projet">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Montage du projet
+
+                            * Gouvernance
+                            
+                            * Planning  et  jalons  décisionnels 
+                            
+                            * Gestion  des  risques  notamment  en  matière  de délais et de surcoûts
+                            
+                            * Description des coûts projet
+                            
+                            * Clarté de la rédaction
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-structure-du-projet">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Structure du projet, consortium
+
+                            * Présence d'un acteur usager final grâce à l'interface homme-machine
+                            
+                            * Collaboration structurée au sein d'une filière ou d'un écosystème
+                            
+                            * Complémentarité sur l'ensemble de la chaîne de valeur
+                            
+                            * Diversité des acteurs associés (partenaires et soutiens)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-indicateur-clé-de-performance-et-plan-de-financement">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Indicateur clé de performance
+
+                            * Mesurer la mise en accessibilité ouverte et partagée du projet
+                            
+                            #### Plan de financement
+
+                            * Description des modalités de financement du projet
+
+                                * Instruments de financement 
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-plan-de-financement-2">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Plan de financement
+
+                            * Description des modalités de financement du projet
+                            
+                                * Investissements en fonds propres et quasi fonds propres 
+
+                                * Toute autre mesure d'aides d'Etat octroyée pour le projet
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-plan-de-financement-3">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Plan de financement
+                            
+                            * Détail de tous les coûts 
+                                * D'achat ou 
+                                * De location de matériel informatique ou
+                                * De prestations de calcul informatique
+                                * Pas plus de 30% de l'assiette totale du Projet
+                                * Que pour les briques réplicables 
+                            * [Incitativité](#/incitativité) de l'aide
+                            * Capacité à mener à terme le projet
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-innovation">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Innovation
+
+                            * Capacité du projet :
+                                * A lever des verrous technologiques et d'innovation 
+                                * A combler des failles de marché 
+                                * Afin de conférer des avantages concurrentiels 
+                                    * A un ensemble d'utilisateurs ou 
+                                    * A l'échelle d'une filière industrielle ou économique
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-infrastructures">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Infrastructures
+
+                            * Justification  des  choix  quant  aux  infrastructures  utilisées  pour  la  constitution  de  la  solution 
+                            (enjeux de souveraineté, coût, etc.)
+                                * En particulier concernant les ressources de calcul utilisées 
+                                    * Supercalculateur 
+                                    * Cloud 
+                                    * etc
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-acccessibilité">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Accessibilité
+
+                            * Justification des choix effectués pour favoriser l'accès à la solution, en termes  
+                                * De licence 
+                                * De plateforme d'accès 
+                                * De communication et diffusion au public 
+                                    * Vers des filières ciblées
+                                * etc
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-aspects-de-confiance-/-données-personnelles-/-robustesse-/-compliance-AI-Act,-etc">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Aspects de confiance / données personnelles / 
+                            robustesse / compliance AI Act, etc
+
+                            * Capacité à assurer la confiance et la légalité du commun mis en place 
+                                * Débiaisage des données 
+                                * Alignement des modèles 
+                                * Respect des réglementations 
+                                    * Sur les données personnelles 
+                                    * Sur les droits d'auteur, etc
+                                * En particulier dans le domaine de la santé
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-impacts-environnementaux">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Impacts environnementaux
+
+                            * Démonstration qualitative et quantitative des éléments annoncés dans le dossier de candidature 
+                            sur  les  impacts  environnementaux  du  projet.
+                                
+                                * Appréciation des impacts
+                                
+                                    * positifs ou négatifs
+                                    
+                                    * sur les 6 axes de la [taxonomie européenne](#/taxonomie-européenne)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-impacts-environnementaux-2">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Impacts environnementaux
+                            
+                            * Donner obligatoirement quelques quantités critiques dans l'auto-évaluation de l'impact environnemental
+                                * Savoir lesquelles en s'appuyant sur les [critères de performance environnementale](#/critères-de-performance-environnementale) 
+                            * Calculs basés sur l'outil [Green Algorithms](#/outils-de-calcul-de-l'impact-environnemental)
+                            * Les projets causant des préjudices importants pour l'environnement ne seront pas soutenus
+                                * En accord avec le principe [DNSH](#/dnsh)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-réplicabilité-de-la-solution-finale">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            
+                            #### Réplicabilité de la solution finale
+                            
+                            * Analyse approfondie du marché des utilisateurs finaux
+
+                                * Concernés par les divers briques technologiques
+                                * Par les porteurs de projets
+
+                            * Seuls les projets ciblant des cas d'usage spécifiques
+                                
+                                * reconnus au sein des secteurs ou des fonctions
+                                * seront éligibles à la sélection.
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-pertinence-du-modèle-d'affaires">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Pertinence du modèle d'affaires
+
+                            * Justification des opportunités économiques 
+                                * solutions, méthodes et bonnes pratiques 
+                                * description du modèle d'affaires (produits et services envisagés / segments de marchés) et du plan d'affaires 
+                                    * études prévisionnelles de marchés (national, européen, international) 
+                                    * tenant compte des évolutions technologiques et des développements d'autres solutions
+                                * présentation des facteurs-clés de succès.
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-impacts-socio-économiques">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Impacts socio-économiques
+
+                            * Démonstration du caractère structurant du projet pour la filière concernée 
+                                * capacité d'entraînement
+                                * perspectives d'investissement
+                                * etc
+                            ####
+                            * Justification de la pertinence du projet par rapport aux enjeux socio-économiques et sociétaux, 
+                                * Opportunités d'automatisation des tâches industrielles et administratives
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-impacts-socio-économiques-2">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Impacts socio-économiques
+
+                            * Justification de la pertinence du projet par rapport aux enjeux socio-économiques et sociétaux, 
+                                * Impacts en termes d'emploi
+                                * Protection du consommateur 
+                                * Mise en conformité aux futures exigences de la réglementation européenne sur l'IA. 
+                            ####
+                            * Démonstration de la pérennité des solutions ou contenus développés 
+                                * Après la fin du projet et du soutien public
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="cds-impacts-socio-économiques-3-et-cybersecurité">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Critères de sélection
+                            #### Impacts socio-économiques
+                            * Démonstration de la pérennité des solutions ou contenus développés 
+                                * Anticipation du besoin de maintenabilité du commun sur le long terme
+                                * Identification des évolutions possibles. 
+
+                            #### Cybersecurité
+
+                            * Prise en compte dans les travaux et investissements
+                            * Identification des actions réalisées et/ou planifiées pour assurer un bon niveau de cybersecurité 
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="pré-sélection">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Processus de sélection
+                            #### Pré-sélection 
+
+                            * 1ère analyse par la BPI 
+                                
+                                * sur la base des critères de sélection
+                                
+                                * si il y a un ou plusieurs liens ou besoins
+                                
+                                    * avec les représentants des ministères sectoriels concernés
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sélection-et-instruction">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Processus de sélection
+                            #### Sélection
+
+                            * Audition par un jury composé de
+                                
+                                * de la BPI
+                                * d'experts externes
+                                * de représentants des ministères sectoriels concernés
+
+                            #### Instruction
+
+                            * Complément de dossier à compléter envoyé au chef de file
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="instruction-2">
+                        <textarea data-template>
+                            * III) Processus de sélection
+                                * Processus de sélection
+                            #### Instruction
+
+                            * conduite par la BPI et potentiellement par des experts externes
+
+                                * invitation pour le détail du projet (jusqu'à un jour)
+
+                            * BPI présente au comité interministériel les conclusions de l'instruction
+
+                                * recommandations et éventuel soutien
+
+                            * Le Premier ministre prend les décisions finales d'octroi de l'aide après avis du SGPI.
+                        </textarea>
+                    </section>
+                </section>
+                <section data-auto-animate>
+                    <section data-auto-animate data-markdown id="mise-en-œuvre,-suivi-des-projets-et-allocation-des-fonds">
+                        <textarea data-template>
+                            ## IV) Mise en œuvre, suivi des projets et allocation des fonds
+                        </textarea>
+					</section>
+                    <section data-auto-animate data-markdown id="conventionnement">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Conventionnement
+
+                            * Chaque bénéficiaire signe une convention avec Bpifrance qui précisera :
+                                
+                                * l'utilisation des crédits
+                                
+                                * le contenu du projet
+                                
+                                * le calendrier de réalisation
+                                
+                                * les modalités de pilotage du projet
+                                
+                                * le montant des tranches et les critères de déclenchement des tranches successives
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="conventionnement-2">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Conventionnement
+
+                            * Chaque bénéficiaire signe une convention avec Bpifrance qui précisera :
+                                
+                                * les prévisions de cofinancement des projets
+                                
+                                * les modalités de restitution des données nécessaires au suivi et à l'évaluation des investissements
+                                
+                                * les modalités de communication
+                            
+                            * Délai de 4 mois après décision du Premier ministre
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="suivi-des-projets-et-étapes-d'allocation-des-fonds">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Suivi des projets et étapes d'allocation des fonds 
+
+                            * Le bénéficiaire met en place un tableau de bord comportant des indicateurs de suivi de l'avancement des projets
+                                
+                                * Technique, industriel et financier
+
+                            * Transmission régulière à Bpifrance 
+
+                                * plus d'autres documents demandés à chaque versement d'aide 
+
+                                    * rapport d'avancement, [ERDA](#/erda) certifiés, ...
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="suivi-des-projets-et-étapes-d'allocation-des-fonds-2">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Suivi des projets et étapes d'allocation des fonds 
+
+                            * Financement en 2 temps
+                            * Validation nécessaire d'un point d'étape pour le versement de la 2ème partie
+                                * Critères de validation à mettre dans le dossier
+                                    * Affinable lors de l'instruction
+                                * Comité de validation :
+                                    * Porteur du projet
+                                    * Bpifrance
+                                    * Représentant de l'administration française
+                                    * Expert externe (éventuel)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="suivi-des-projets-et-étapes-d'allocation-des-fonds-3">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Suivi des projets et étapes d'allocation des fonds 
+                            
+                            * Ce point d'étape visera
+
+                                1. La démonstration de la faisabilité technique de la solution
+
+                                    * Apport de valeur à l'usager métier (maturité)
+
+                                    * critères d'évaluation
+
+                                        * Sous forme de [KPI](#/kpi) quantifiables et objectifs
+
+                                        * Dans le dossier soumis par le porteur
+
+                                2. Le déploiement d'efforts du côté des métiers
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="suivi-des-projets-et-étapes-d'allocation-des-fonds-4">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Suivi des projets et étapes d'allocation des fonds 
+                            * Ce point d'étape visera
+
+                                2. Le déploiement d'efforts du côté des métiers
+                                   
+                                    * Critères d'évaluation sous la forme d'engagements 
+                                        
+                                        * Actions de formation des usagers finaux à l'utilisation de la solution développée.
+                                
+                            * De plus, il y aura autant de réunions d'avancement que jugées nécesssaires
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="suivi-des-projets-et-étapes-d'allocation-des-fonds-5">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Suivi des projets et étapes d'allocation des fonds 
+
+                            * De plus, il y aura autant de réunions d'avancement que jugées nécesssaires
+                                
+                                * Organisées par le porteur du projet
+                                * A la demande de Bpifrance
+                                * Associe les membres du comité de sélection
+                                #
+                                * Cette réunion a pour objet de suivre la mise en œuvre du projet 
+                                    * Niveau d'exécution budgétaire, avancement des opérations financées et respect du planning
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="communication">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Communication
+
+                            * Confidentialité stricte de la part de Bpifrance
+                                * Communication uniquement dans le cadre de l'expertise et de la gouvernance de France 2030
+                            #
+                            * Engagement des bénéficiaire soutenu à mentionner
+                                * "Ce projet a été soutenu par le plan France 2030"
+                            #
+                            * L'État se réserve le droit de communiquer anonymement et dans le respect du secret des affaires
+                                * Toute autre communication est soumise à l'accord préalable du bénéficiaire
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="conditions-de-reporting">
+                        <textarea data-template>
+                            * IV) Mise en œuvre, suivi et allocation des fonds
+                            ### Conditions de reporting
+
+                            * Communication régulière avec Bpifrance et l'Etat 
+                                * Formations pour l'évaluation de l'avancement du projet ainsi que de l'impact environnemental 
+                                    * Performance  commerciale
+                                    * Emplois  créés
+                                    * Brevets déposés
+                                    * Effets environnementaux et énergétiques 
+                                #
+                                * L'évaluation pourra se poursuivre après réalisation du projet. 
+                                * Eléments précisés dans la convention
+                        </textarea>
+                    </section>
+                </section>
+                <section data-auto-animate>
+                    <section data-auto-animate data-markdown id="ia-générative">
+                        <textarea data-template>
+                            ## IA Générative
+
+                            #### Comment ça marche techniquement ?
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="définitions-tech">
+                        <textarea data-template>
+                            ### Définitions
+
+                            * Modèle d'IA générative pré-entrainé
+
+                                * Modèles avec un filtre plus ou moins développé
+
+                                * Très généraliste
+
+                                * Les modèles open source sont souvent moins entraînés que les privés
+
+                                * Ex : Mistral 7b, Llama 2 , ChatGPT API
+
+                            * BDD (Dataset) pour IA génératives
+
+                                * Dataset composé uniquement de multiples questions et de la réponse attendue
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="rlhf">
+                        <textarea data-template>
+                            ### Définitions
+
+                            * Apprentissage par renforcement à partir du retour humain 
+                            (RLHF, Reinforcement Learning from Human Feedback)
+
+                                * Les modèles apprennent en interagissant avec leur environnement 
+                                et en recevant un retour d'information. Ils sont formés pour maximiser 
+                                un signal de récompense (en utilisant PPO), qui est souvent dérivé de 
+                                l'évaluation humaine de la sortie du modèle.
+                        
+                            [Retour](#/4.-5.-5)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="fine-tuning">
+                        <textarea data-template>
+                            ### Fine Tuning
+                            #### Définition
+
+                            * Ajustement supervisé (SFT, Supervised Fine Tuning)
+
+                                * Il ajuste les poids dans le LLM pour minimiser les différences 
+                                entre les réponses générées et les réponses réelles, en ajoutant des étiquettes.
+                                
+                            [Retour](#/9.-3)
+                            </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="fine-tuning-2">
+                        <textarea data-template>
+                            ### Fine Tuning
+
+                            * Pourquoi faire du fine tuning ?
+
+                                * Pour rendre le modèle meilleur sur quelque chose de particulier
+
+                                    * Ex: analyse médicale --> grâce à un corpus de données du domaine
+
+                                * Pour le rendre meilleur de manière généraliste
+
+                                    * Grâce à un excellent corpus de texte
+                       </textarea>
+                    </section>
+                    <section data-auto-animate id="fine-tuning-3">
+                        <h3>Fine Tuning</h3>
+                        <img class="r-stretch" src="img/FineTuningWays.png" alt="Fine Tuning ways">
+                    </section>
+                    <section data-auto-animate data-markdown id="full-fine-tuning">
+                        <textarea data-template>
+                            ### Fine Tuning
+
+                            * Définitions
+
+                                * Full Fine Tuning
+
+                                    * Ré-entraînement de complètement tout le modèle sur le nouveau corpus de données
+
+                                        * Approche la plus naïve
+
+                                        * Fonctionne très bien
+
+                                        * Moyen le plus coûteux
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="lora">
+                        <textarea data-template>
+                            ### Fine Tuning
+
+                            * Définitions
+
+                               * LoRA (Low Rank Adaptation) 
+
+                                    * Entraînement de 1% de tout le modèle 
+
+                                        * Approximation de certains layers du modèle, les matrices de rang bas 
+                                        qui iront elles-mêmes approximer de plus grandes matrices
+
+                                    * 99% moins coûteux
+
+                                    * Performances très proches du fine-tuning
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="qlora">
+                        <textarea data-template>
+                            ### Fine Tuning
+
+                            * Définitions
+
+                                * QLoRA (Quantization Low Rank Adaptation) 
+
+                                    * Diminuer la précision de paramètres
+
+                                    * Encore moins couteux que LoRA
+
+                                    * Performances très proches du Full Fine Tuning (perte de seulement 2% à 3%)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="fine-tuning-4">
+                        <textarea data-template>
+                            ### Fine Tuning
+
+                            * Définitions
+
+                                * QA-LoRA (Quantization-Aware Low Rank Adaptation) 
+
+                                    * ...
+
+                                * Long LoRA (Long Low Rank Adaptation)
+                                
+                                    * Variation de LoRA spécifique pour entraîner des modèles de contexte plus long
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="fine-tuning-5">
+                        <textarea data-template>
+                            ### Fine Tuning
+                            #### Bonus
+                            
+                            * Open LLM leaderboard
+
+                            * Classement des meilleurs IA génératives fine tuned
+
+                            * Les meilleurs en 7b utilisent mistral
+
+                            * Travaux pour savoir comment bâtir de bons datasets
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="function-calling">
+                        <textarea data-template>
+                            ### Function Calling
+
+
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown>
+                        <textarea data-template>
+
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown>
+                        <textarea data-template>
+
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown>
+                        <textarea data-template>
+
+                        </textarea>
+                    </section>
+
+                </section>
+				<section data-auto-animate>
+                    <section data-auto-animate data-markdown id="explications-administratives-et-financières">
+                        <textarea data-template>
+                            ## Explications administratives et financières
+
+                            #### Vous allez tous comprendre vous verez
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="trl">
+                        <textarea data-template>
+                            ### TRL (Technology Readiness Level)
+
+                            * Niveau de maturité technologique
+
+                                * 1 à 9 (9 étant le plus mature)
+
+                            1. Principes de base observés et rapportés
+
+                            2. Concepts ou applications de la technologie formulés	
+
+                            3. Fonction critique analysée et expérimentée ou preuve caractéristique du concept	
+
+                            4. Validation en laboratoire du composant ou de l'artefact produit	
+
+                            5. Validation dans un environnement significatif <!--du composant ou de l'artefact produit-->	
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="trl-2">
+                        <textarea data-template>
+                            ### TRL (Technology Readiness Level)
+
+                            6. Démonstration du modèle système / sous-système ou du prototype dans un environnement significatif	
+
+                            7. Démonstration du système prototype en environnement opérationnel	
+                            
+                            8. Système réel complet qualifié à travers des tests et des démonstrations	
+                            
+                            9. Système réel prouvé à travers des opérations / missions réussies	    
+                            
+                            Retour à [Nature des projets](#/les-chiffres), à [Financement R&D](#/aides-proposées-pour-les-activités-de-recherche-et-développement)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="licenses-open-source">
+                        <textarea data-template>
+                            ### Licenses Open Source
+
+                            * Il existe 2 types de licenses open source
+
+                                * [Permissive](#/licenses-permissives)
+
+                                    * MIT, Apache 2.0, BSD
+
+                                * [Copyleft](#/licenses-copyleft)
+
+                                    * GPL, AGPL, LGPL, MPL, EPL, CDDL
+
+                            * Certaines licenses sont créées pour des projets spécifiques
+
+                                * Ex: Pour Llama, Meta en a créé une
+
+                            [Retour](#/9.-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="licenses-permissives">
+                        <textarea data-template>
+                            ### Licenses Open Source
+                            #### Licenses permissives
+
+                            * Permettent de réutiliser le code source dans des projets propriétaires
+
+                            * Les modifications du code source peuvent être distribuées sous une license propriétaire
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="licenses-copyleft">
+                        <textarea data-template>
+                            ### Licenses Open Source
+                            #### Licenses copyleft
+
+                            * Obligent à distribuer les modifications du code source sous la même license
+                        </textarea>
+                    </section>
+                    <section data-auto-animate >
+                        <h3>Licenses Open Source</h3>
+                        <img class="r-stretch" src="img/Licenses.png" alt="Différents types de licenses courament utilisées">
+                    </section>
+                <section data-auto-animate data-markdown id="les-catégories-d'entreprises-par-taille">
+                        <textarea data-template>
+                            ### Les catégories d'entreprises par Taille
+
+                            * Très Petite Entreprise (TPE)
+
+                                * 0 à 9 salariés
+                            
+                            * **Petite Entreprise** (PE)  <-- CAD42
+
+                                * 10 à 49 salariés
+
+                            * Moyenne Entreprise (ME)
+                                
+                                * 50 à 249 salariés
+                            
+                            [Retour](#/aides-proposées-pour-les-activités-de-recherche-et-développement)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="les-catégories-d'entreprises-par-taille-2">
+                        <textarea data-template>
+                            ### Les catégories d'entreprises par taille
+
+                            * Entreprise de Taille Intermédiaire (ETI)
+
+                                * 250 à 4999 salariés et moins de 1,5 milliards 
+                                d'euros de CA et moins de 2 milliards d'euros de total de bilan
+
+                            * Grande Entreprise (GE)
+
+                                * 5000 salariés et plus ou 1,5 milliards d'euros de CA et 
+                                plus ou 2 milliards d'euros de total de bilan
+
+                            [Retour](#/aides-proposées-pour-les-activités-de-recherche-et-développement)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="outils-de-calcul-de-l'impact-environnemental">
+                        <textarea data-template>
+                            ### Outil de calcul de l'impact environnemental
+
+                            * Green Algorithms ([site internet](https://www.green-algorithms.org/))
+                               
+                                * L'outil Green Algorithms permet de calculer diverses quantités 
+                                qui entrent dans l'évaluation de l'impact environnemental du projet.
+
+                            * GT, Lannelongue et al ; Jay et al ([site internet](https://inria.hal.science/hal-03945744))
+                                
+                                * Comparaison expérimentale de logiciels de mesure d'énergie : côté GPU - Inria - 
+                                Institut national de recherche en sciences et technologies du numérique ([hal.science](https://hal.science)) 
+
+                            Retour à [Détail du dossier](#/détail-du-dossier-2) ou [Critères de sélection](#/cds-impacts-environnementaux)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="régimes-d'aides-d'état">
+                        <textarea data-template>
+                            ### Régimes d'aides d'Etat
+
+                            * Régime cadre exempté de notification n° [SA.111723](https://www.europe-en-france.gouv.fr/sites/default/files/sa.111723_regime_exempte_rdi.pdf) relatif aux aides à la recherche, au développement et à l'innovation 
+                            (RDI) pour la période 2024-2026 ; 
+                            * Régime cadre exempté de notification n° [SA.111728](https://www.europe-en-france.gouv.fr/sites/default/files/sa.111728_regime_exempte_pme.pdf) relatif aux aides en faveur des PME pour la période 2024-2026 ; 
+                            * Régime cadre exempté de notification n° [SA.111729](https://www.europe-en-france.gouv.fr/sites/default/files/sa.111729_regime_exempte_acces_des_pme_au_financement.pdf) relatif aux aides en faveur de l'accès des PME au financement pour 
+                            la période 2024-2026 ; 
+                            * Régime cadre exempté de notification n° [SA.111726](https://www.europe-en-france.gouv.fr/sites/default/files/sa.111726_protection_environnement_pacte_vert.pdf) relatif aux aides à la protection de l'environnement pour la période 
+                            2024-2026.
+
+                            retour à [Modalités de financement](#/modalités-de-financement)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="recherche-contractuelle">
+                        <textarea data-template>
+                            ### Définition
+                            #### Recherche contractuelle
+
+                            * Une société ou organisation de recherche contractuelle, souvent abrégé en 
+                            CRO (Contract Research Organization) est une entreprise qui fournit, sur une 
+                            base contractuelle (et donc généralement payante), des services dans le domaine 
+                            de la recherche.
+
+                            * L'intervention des CRO peut se retrouver à toutes phases de R&D.
+
+                            [Retour](#/travaux-et-dépenses-éligibles-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="pleine-concurrence">
+                        <textarea data-template>
+                            ### Définition
+                            #### Pleine concurrence
+
+                            * Suivant ce principe, les prix pratiqués pour des transactions entre sociétés 
+                            liées doivent être établis par référence aux prix pratiqués par des entreprises 
+                            indépendantes sous peine de correction de bénéfice par les administrations fiscales.
+
+                            [Retour](#/travaux-et-dépenses-éligibles-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="collaboration-effective">
+                        <textarea data-template>
+                            ### Définition
+                            #### Une collaboration effective existe :
+                            
+                            * entre des entreprises parmi lesquelles figure au moins une PME, ou est menée dans au moins deux Etats membres, ou dans un Etat membre et une partie contractante 
+                            à l'accord EEE, et aucune entreprise unique ne supporte seule plus de 70 % des coûts admissibles ; 
+                               
+                            ou **↓**
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="collaboration-effective-2">
+                        <textarea data-template>
+                            ### Définition
+                            #### Une collaboration effective existe :
+
+                            * entre une entreprise et un ou plusieurs organismes de recherche et de diffusion des connaissances, et ce ou ces derniers supportent au moins 10 % des coûts admissibles 
+                            et ont le droit de publier les résultats de leurs propres recherches.
+
+                            [Retour](#/aides-proposées-pour-les-activités-de-recherche-et-développement-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="large-diffusion">
+                        <textarea data-template>
+                            ### Définition
+                            #### Large diffusion
+
+                            * Les résultats du projet peuvent être largement diffusés au moyen de conférences, de publications, de dépôts en libre accès ou de logiciels gratuits ou libres.
+                        
+                            [Retour](#/aides-proposées-pour-les-activités-de-recherche-et-développement-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="rendre-disponibles-les-licences-pour-les-résultats-de-la-recherche">
+                        <textarea data-template>
+                            ### Définition
+                            #### Rendre disponibles les licences pour les résultats de la recherche
+
+                            *  Le bénéficiaire s'engage à rendre disponibles, en temps utile, les licences pour les résultats de la recherche de projets de recherche et développement ayant bénéficié 
+                            d'une aide, qui sont protégés par des droits de propriété intellectuelle, au prix du marché et sur une base non exclusive et non discriminatoire en vue de leur utilisation 
+                            par les parties intéressées dans l'EEE(Espace Economique Européen, réunissant l'UE plus la Norvège, l'Island et le Liechtenstein).
+                        
+                            [Retour](#/aides-proposées-pour-les-activités-de-recherche-et-développement-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="zone-a">
+                        <textarea data-template>
+                            ### Définition
+                            #### Zone "a"
+
+                            * Région assistée remplissant les conditions énoncées à l'article 107, paragraphe 3, point a), du [traité](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:12012E/TXT:fr:PDF).  
+
+                            * Ces régions sont la Guadeloupe, la Guyane française, la Martinique, La Réunion, 
+                            Saint-Barthélemy, Saint-Martin, les Açores, Madère et les îles Canaries.
+
+                            [Retour](#/aides-proposées-pour-les-activités-de-recherche-et-développement-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="zone-c">
+                        <textarea data-template>
+                            ### Définition
+                            #### Zone "c"
+
+                            * Région assistée remplissant les conditions énoncées à l'article 107, paragraphe 3, point c), du [traité](https://www.europe-en-france.gouv.fr/sites/default/files/article_107_et_suivants_du_tfue.pdf)
+
+                            * les cibles de la zone c sont des communes qui bénéficient des aides à finalité régionales (AFR), plus d'info [ici](https://www.europe-en-france.gouv.fr/fr/aides-d-etat/zonage-des-aides-finalite-regionale-afr)
+
+                            * [carte interactive](https://dgcl-sdcat.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=2fff2a5e62904ff5930d15a7d3d16872)
+                        
+                            [Retour](#/aides-proposées-pour-les-activités-de-recherche-et-développement)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="entreprise-en-difficulté">
+                        <textarea data-template>
+                            ### Définition
+                            #### Entreprise en difficulté
+
+                            [Retour](#/critères-d'éligibilité-3)
+
+                            * Une entreprise en difficulté est une entreprise remplissant au moins une des conditions suivantes : 
+                            
+                            1) s'il s'agit d'une société à responsabilité limitée (autre qu'une PME en existence depuis moins de 3 ans ou, aux fins de l'admissibilité  au  bénéfice  des  aides  au 
+                            financement des risques, une PME qui satisfait à la condition énoncée à l'article 21, paragraphe 3, point b), du RGEC et qui peut bénéficier d'investissements en faveur 
+                            du financement des risques au terme du contrôle préalable effectué par l'intermédiaire financier sélectionné), lorsque plus de la moitié de son capital social souscrit a 
+                            disparu en raison des pertes accumulées. Tel est le cas lorsque la déduction des pertes accumulées des réserves (et de tous les autres éléments généralement considérés 
+                            comme relevant des fonds propres de la société) conduit à un montant cumulé négatif qui excède la moitié du capital social souscrit. Aux fins de la présente disposition, 
+                            on entend par «société à responsabilité limitée» notamment les types d'entreprises mentionnés à l'annexe I de la directive 2013/34/UE du Parlement européen et du 
+                            Conseil ( 7 ) et le «capital social» comprend, le cas échéant, les primes d'émission; 
+                            
+                            2) s'il s'agit d'une société dont certains de ses associés au moins ont une responsabilité illimitée pour les dettes de la société (autre qu'une PME en existence depuis 
+                            moins de 3 ans ou, aux fins de l'admissibilité au bénéfice des aides au financement des risques, une PME qui satisfait à la condition énoncée à l'article 21, paragraphe 3, 
+                            point b), du RGEC et qui peut bénéficier d'investissements en faveur du financement des risques au terme du contrôle préalable effectué par l'intermédiaire financier 
+                            sélectionné), lorsque plus de la moitié des fonds propres, tels qu'ils sont inscrits dans les comptes de la société, a disparu en raison des pertes accumulées. Aux fins de 
+                            la présente disposition, on entend par «société dont certains de ses associés au moins ont une responsabilité illimitée pour les dettes de la société» en particulier les 
+                            types de sociétés mentionnés à l'annexe II à la directive 2013/34/UE; 
+                            3) lorsque l'entreprise fait l'objet d'une procédure collective d'insolvabilité ou remplit, selon le droit national qui lui est applicable, les conditions de soumission à une 
+                            procédure collective d'insolvabilité à la demande de ses créanciers, 
+                            4) lorsque l'entreprise a bénéficié d'une aide au sauvetage et n'a pas encore remboursé le prêt ou mis fin à la garantie, ou a bénéficié d'une aide à la restructuration et 
+                            est toujours soumise à un plan de restructuration, 
+                            5) dans le cas d'une entreprise autre qu'une PME, lorsque depuis les deux exercices précédents:  
+                                5.1) le ratio emprunts/capitaux propres de l'entreprise est supérieur à 7,5; et 
+                                5.2) le ratio de couverture des intérêts de l'entreprise, calculé sur la base de l'EBITDA, est inférieur à 1,0; 
+                            
+                            
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown>
+                        <textarea data-template>
+
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="sgpi">
+                        <textarea data-template>
+                            ### Définition
+                            #### Secrétariat général pour l'investissement (SGPI)
+
+                            * Le Secrétariat général pour l'investissement (SGPI) est chargé, 
+                            sous l'autorité du Premier ministre, d'assurer la cohérence et 
+                            le suivi de la politique d'investissement de l'État à travers 
+                            le déploiement du plan France 2030. 
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="incitativité">
+                        <textarea data-template>
+                            ### Définition
+                            #### Incitativité
+
+                            * modifier le comportement de l'entreprise concernée de manière à ce qu'elle
+                            crée une nouvelle activité qu'elle n'exercerait pas sans l'aide, ou qu'elle
+                            exercerait de manière limitée ou différente, ou sur un autre site, selon le CGET 
+
+                            * L'incitativité d'une aide se justifie aussi par le fait de 
+                            ne pas débuter les travaux avant la demande d'aide.
+
+                            [Retour](#/cds-plan-de-financement-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="erda">
+                        <textarea data-template>
+                            ### Définition
+                            #### État Récapitulatif des Dépenses Acquittées (ERDA)
+
+                            * Il s'agit d'un tableau Excel dans lequel le bénéficiaire doit renseigner pour une 
+                            demande d'acompte ou de solde 
+                                * Chaque dépense réalisée, comptabilisée et acquittée 
+                                    * Une ligne par dépense
+                                * Certifié par un commissaire aux comptes ou attesté par un expert-comptable.
+
+                            [Retour](#/suivi-des-projets-et-étapes-d'allocation-des-fonds)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="kpi">
+                        <textarea data-template>
+                            ### Définition
+                            #### Key Performance Indicators (KPI)
+
+                            * Les indicateurs clés de performance permettent aux décideurs et aux équipes d'évaluer l'efficacité de leurs actions 
+                            
+                            * Ils fournissent une ligne directrice claire qui favorise l'alignement entre la stratégie et l'opérationnel.
+
+                            [Retour](#/suivi-des-projets-et-étapes-d'allocation-des-fonds-3)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="critères-de-performance-environnementale">
+                        <textarea data-template>
+                            ### Critères de performance environnementale
+
+                            * Issu de l'annexe 1 du cahier des charges de l'AAPS
+
+                            [Retour](#/cds-impacts-environnementaux)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="taxonomie-européenne">
+                        <textarea data-template>
+                            ### Critères de performance environnementale
+                            #### Taxonomie européenne
+
+                            * atténuation du changement climatique 
+                            * adaptation au changement climatique 
+                            * utilisation durable et protection des ressources aquatiques et marines 
+                            * transition vers une économie circulaire 
+                            * contrôle de la pollution 
+                            * protection et restauration de la biodiversité et des écosystèmes 
+
+                            [Retour](#/cds-impacts-environnementaux)
+                        </textarea>
+                    </section>
+                    <section data-auto-animate data-markdown id="dnsh">
+                        <textarea data-template>
+                            ### Critères de performance environnementale
+                            #### DNSH
+
+                            * Le principe DNSH (do no significant harm, ou "absence de préjudice important") 
+                            est au coeur de la stratégie de développement durable de l'Union Européenne. 
+                            Intégré au règlement taxonomie de l'UE, ce principe impose aux acteurs économiques 
+                            de ne causer aucun préjudice aux 6 objectifs environnementaux qui déterminent la durabilité d'une activité
+
+                            [Retour](#/cds-impacts-environnementaux)
+                        </textarea>
+                    </section>
+                </section>
+                <section data-auto-animate data-markdown id="remerciements">
+                    <textarea data-template>
+						## Merci pour votre attention
+                    </textarea>
+                </section>
+			</div>
+		</div>
+
+		<script src="reveal/dist/reveal.js"></script>
+		<script src="reveal/plugin/notes/notes.js"></script>
+		<script src="reveal/plugin/markdown/markdown.js"></script>
+		<script src="reveal/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+            Reveal.initialize({
+				hash: true,
+                slideNumber: 'h/v',
+                ontrols: true,
+                progress: true,
+                history: true,
+                center: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
