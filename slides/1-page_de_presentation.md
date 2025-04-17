@@ -7,4 +7,5 @@
 Présenté par :
 * Julot Ngongang
 * Hamza Zirar
-* Eloi Seidlizt
+* Eloi Seidlitz
+
