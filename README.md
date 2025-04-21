@@ -1,44 +1,63 @@
-# Publics cibles
+# Stratégies
 
-## Personnel de l'UQAC (prioritaire)
-- **Personnel administratif**
-  - Secrétaires, services aux étudiants, RH, finances
-  - *Besoins spécifiques*: Accès rapide aux informations, automatisation des tâches répétitives
-  - *Niveau d'accès*: Complet (générique + personnalisé + assistant métier)
+## 1. Stratégie d'adoption progressive
 
-- **Corps enseignant et chercheurs**
-  - Professeurs, chargés de cours, assistants de recherche
-  - *Besoins spécifiques*: Gestion des plannings, information sur les étudiants
-  - *Niveau d'accès*: Complet avec fonctionnalités adaptées à l'enseignement
+### Phase 1: Déploiement interne (Personnel)
+- **Programme pilote** avec départements volontaires (juin-août 2025)
+- **Formation ciblée** par type de fonction (administratif, enseignant, technique)
+- **Accompagnement personnalisé** pendant les premières semaines d'utilisation
+- **Réseau d'ambassadeurs** dans chaque département pour soutenir l'adoption
 
-- **Personnel technique et de soutien**
-  - Équipes informatiques, maintenance, bibliothèque
-  - *Besoins spécifiques*: Procédures techniques, gestion des demandes d'assistance
-  - *Niveau d'accès*: Adapté selon les fonctions
+### Phase 2: Extension aux étudiants
+- **Lancement officiel** en septembre 2025 pour tous les étudiants
+- **Campagne d'information** durant la semaine d'intégration et de rentrée
+- **Kiosques de démonstration** aux endroits stratégiques du campus
+- **Tutoriels intégrés** au portail étudiant et à l'application mobile
 
-## Étudiants (phase 2)
-- **Étudiants actuels**
-  - Tous cycles et programmes confondus
-  - *Besoins spécifiques*: Information sur les cours, procédures administratives, échéances
-  - *Niveau d'accès*: Limité (réponses génériques + pré-rédaction d'emails)
+### Phase 3: Ouverture externe
+- **Intégration au site web public** de l'UQAC (début 2026)
+- **Communication externe** sur l'innovation technologique de l'université
+- **Démonstrations** lors des journées portes ouvertes et salons étudiants
 
-- **Nouveaux inscrits**
-  - Étudiants en première année ou en échange
-  - *Besoins spécifiques*: Orientation, découverte des services, intégration
-  - *Niveau d'accès*: Limité avec contenu adapté aux nouveaux arrivants
+## 2. Stratégie de communication
 
-## Public externe (phase 3)
-- **Futurs étudiants potentiels**
-  - Lycéens, étudiants en réorientation, professionnels en formation continue
-  - *Besoins spécifiques*: Information sur les programmes, procédures d'admission
-  - *Niveau d'accès*: Très limité (réponses génériques uniquement)
+### Messages clés par public
+- **Personnel**: "UQACBot - Votre assistant personnel qui simplifie votre quotidien professionnel"
+- **Étudiants**: "UQACBot - Toutes vos réponses universitaires en un clic, 24/7"
+- **Externes**: "L'UQAC innove pour mieux vous servir avec UQACBot"
 
-- **Partenaires et visiteurs**
-  - Entreprises, autres institutions académiques, grand public
-  - *Besoins spécifiques*: Informations générales, contacts appropriés
-  - *Niveau d'accès*: Minimal (réponses génériques uniquement)
+### Canaux de communication interne
+- **Sessions d'information** par département
+- **Intranet** avec tutoriels, FAQ et forum de discussion
+- **Emails ciblés** avec cas d'usage concrets
+- **Affiches et signalétique** dans les espaces de travail
+- **Newsletter mensuelle** avec nouveautés et témoignages
 
-## Approche adaptée par public
-- **Personnel**: Formation approfondie, accompagnement personnalisé
-- **Étudiants**: Tutoriels interactifs, intégration aux plateformes existantes
-- **Externes**: Interface intuitive, présentation claire des limites d'accès
+### Canaux de communication pour les étudiants
+- **Portail étudiant** avec bannières et tutoriels
+- **Application mobile** avec notifications
+- **Réseaux sociaux** de l'université
+- **Écrans d'information** sur le campus
+- **Associations étudiantes** comme relais d'information
+
+## 3. Stratégie de formation et d'accompagnement
+
+### Pour le personnel
+- **Sessions de formation obligatoires** (2h) selon les fonctions
+- **Ateliers pratiques** sur des cas d'usage spécifiques
+- **Documentation personnalisée** par métier
+- **Ligne d'assistance dédiée** pendant les 3 premiers mois
+
+### Pour les étudiants
+- **Webinaires d'introduction** lors de la rentrée
+- **Tutoriels vidéo** intégrés à la première connexion
+- **FAQ interactive** accessible depuis le chatbot lui-même
+- **Assistants étudiants** formés pour aider leurs pairs
+
+## 4. Stratégie d'amélioration continue
+
+- **Système de feedback** intégré au chatbot
+- **Analyse mensuelle des usages** et des questions fréquentes
+- **Comité d'amélioration** avec représentants de tous les publics
+- **Mises à jour trimestrielles** basées sur les retours utilisateurs
+- **Évaluation complète** après 6 mois d'utilisation
