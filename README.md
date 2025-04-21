@@ -1,63 +1,88 @@
-# Stratégies
+# Calendrier et budget
 
-## 1. Stratégie d'adoption progressive
+## Calendrier de déploiement
 
-### Phase 1: Déploiement interne (Personnel)
-- **Programme pilote** avec départements volontaires (juin-août 2025)
-- **Formation ciblée** par type de fonction (administratif, enseignant, technique)
-- **Accompagnement personnalisé** pendant les premières semaines d'utilisation
-- **Réseau d'ambassadeurs** dans chaque département pour soutenir l'adoption
+### Phase préparatoire (Mai - Août 2025)
+- **Mai 2025**: Finalisation des spécifications et personnalisation du chatbot
+- **Juin 2025**: Tests internes avec groupe restreint (équipe projet)
+- **Juillet 2025**: Formation des formateurs et des ambassadeurs
+- **Août 2025**: Préparation des supports de communication et de formation
 
-### Phase 2: Extension aux étudiants
-- **Lancement officiel** en septembre 2025 pour tous les étudiants
-- **Campagne d'information** durant la semaine d'intégration et de rentrée
-- **Kiosques de démonstration** aux endroits stratégiques du campus
-- **Tutoriels intégrés** au portail étudiant et à l'application mobile
+### Phase 1: Déploiement personnel (Sept - Déc 2025)
+- **Septembre 2025**: 
+  - Lancement officiel pour le personnel administratif
+  - Sessions de formation par département
+- **Octobre 2025**: 
+  - Extension au corps enseignant
+  - Premiers retours d'expérience et ajustements
+- **Novembre 2025**: 
+  - Déploiement pour le personnel technique et de soutien
+  - Première évaluation d'utilisation
+- **Décembre 2025**: 
+  - Analyse complète de la phase 1
+  - Ajustements avant déploiement étudiant
 
-### Phase 3: Ouverture externe
-- **Intégration au site web public** de l'UQAC (début 2026)
-- **Communication externe** sur l'innovation technologique de l'université
-- **Démonstrations** lors des journées portes ouvertes et salons étudiants
+### Phase 2: Déploiement étudiants (Janv - Avril 2026)
+- **Janvier 2026**: 
+  - Préparation de l'interface étudiante
+  - Formation des assistants étudiants
+- **Février 2026**: 
+  - Campagne de communication pré-lancement
+  - Tests avec groupes d'étudiants volontaires
+- **Mars 2026**: 
+  - Lancement officiel pour tous les étudiants
+  - Kiosques et démonstrations sur le campus
+- **Avril 2026**: 
+  - Évaluation de l'adoption par les étudiants
+  - Ajustements basés sur les retours
 
-## 2. Stratégie de communication
+### Phase 3: Ouverture externe (Mai - Août 2026)
+- **Mai 2026**: Préparation de l'interface publique
+- **Juin 2026**: Tests avec partenaires sélectionnés
+- **Juillet 2026**: Campagne de communication externe
+- **Août 2026**: Lancement public sur le site web de l'UQAC
 
-### Messages clés par public
-- **Personnel**: "UQACBot - Votre assistant personnel qui simplifie votre quotidien professionnel"
-- **Étudiants**: "UQACBot - Toutes vos réponses universitaires en un clic, 24/7"
-- **Externes**: "L'UQAC innove pour mieux vous servir avec UQACBot"
+## Budget prévisionnel
 
-### Canaux de communication interne
-- **Sessions d'information** par département
-- **Intranet** avec tutoriels, FAQ et forum de discussion
-- **Emails ciblés** avec cas d'usage concrets
-- **Affiches et signalétique** dans les espaces de travail
-- **Newsletter mensuelle** avec nouveautés et témoignages
+### Coûts technologiques: 70 000 $
+- Licence et personnalisation du chatbot: 40 000 $
+- Intégration aux systèmes existants: 20 000 $
+- Maintenance première année: 10 000 $
 
-### Canaux de communication pour les étudiants
-- **Portail étudiant** avec bannières et tutoriels
-- **Application mobile** avec notifications
-- **Réseaux sociaux** de l'université
-- **Écrans d'information** sur le campus
-- **Associations étudiantes** comme relais d'information
+### Coûts de formation: 45 000 $
+- Conception des programmes de formation: 15 000 $
+- Matériel pédagogique et documentation: 10 000 $
+- Animation des sessions (personnel): 12 000 $
+- Formation des assistants étudiants: 8 000 $
 
-## 3. Stratégie de formation et d'accompagnement
+### Coûts de communication: 35 000 $
+- Conception de la campagne: 8 000 $
+- Supports physiques (affiches, flyers): 7 000 $
+- Supports numériques (vidéos, bannières): 10 000 $
+- Événements de lancement et kiosques: 10 000 $
 
-### Pour le personnel
-- **Sessions de formation obligatoires** (2h) selon les fonctions
-- **Ateliers pratiques** sur des cas d'usage spécifiques
-- **Documentation personnalisée** par métier
-- **Ligne d'assistance dédiée** pendant les 3 premiers mois
+### Coûts humains: 90 000 $
+- Chef de projet dédié (mi-temps): 35 000 $
+- Équipe support technique (phase initiale): 30 000 $
+- Rémunération des ambassadeurs: 15 000 $
+- Évaluation et analyse des données: 10 000 $
 
-### Pour les étudiants
-- **Webinaires d'introduction** lors de la rentrée
-- **Tutoriels vidéo** intégrés à la première connexion
-- **FAQ interactive** accessible depuis le chatbot lui-même
-- **Assistants étudiants** formés pour aider leurs pairs
+### Imprévus (15%): 36 000 $
 
-## 4. Stratégie d'amélioration continue
+### BUDGET TOTAL: 276 000 $
 
-- **Système de feedback** intégré au chatbot
-- **Analyse mensuelle des usages** et des questions fréquentes
-- **Comité d'amélioration** avec représentants de tous les publics
-- **Mises à jour trimestrielles** basées sur les retours utilisateurs
-- **Évaluation complète** après 6 mois d'utilisation
+## Retour sur investissement estimé
+
+### Court terme (1 an)
+- Réduction de 30% du temps consacré aux tâches administratives répétitives
+- Diminution de 25% des sollicitations des services d'assistance
+
+### Moyen terme (2-3 ans)
+- Économie annuelle estimée: 150 000 $ (réduction charge de travail)
+- Amélioration de la satisfaction des utilisateurs: +40%
+- Réduction des erreurs administratives: -35%
+
+### Long terme (3+ ans)
+- Retour sur investissement complet après 22 mois d'utilisation
+- Attractivité renforcée de l'université (+10% inscriptions)
+- Positionnement comme institution innovante
