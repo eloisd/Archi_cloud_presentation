@@ -12,6 +12,30 @@
 ### 1. Page internet statique
 
 
+#### Design Adaptatif
+
+- Interface entièrement responsive qui s'adapte à tous les appareils (mobiles, tablettes, ordinateurs)
+- Design moderne et épuré avec des animations fluides
+- Navigation interactive avec menu mobile optimisé
+- Transitions douces entre les sections
+
+#### Sections Principales
+
+- Section d'accueil (Hero) avec appel à l'action percutant
+- Présentation des services avec cartes animées
+- Section "À propos" détaillant l'histoire de l'entreprise
+- Carrousel de témoignages clients
+- Formulaire de contact avec validation
+- FAQ interactive avec animations d'expansion
+
+#### Performance Technique
+
+- Temps de chargement optimisés grâce à Astro
+- Génération statique des pages pour une performance maximale
+- Images optimisées avec chargement progressif
+- Utilisation minimale de JavaScript pour une meilleure réactivité
+- Score de performance élevé sur PageSpeed Insights
+
 --- 
 
 ### 2. Petite application 
