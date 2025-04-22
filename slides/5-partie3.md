@@ -1,55 +1,43 @@
-## Application
+## Mise en Application
 
 ---
 
-## Application
+## Mise en Application
+
 1. Page internet statique
 2. Petite application 
 3. prototype de SaaS
 
 ---
 
-### 1. Page internet statique
+### I) Site vitrine - Démos
 
-#### 1.1. Design Adaptatif
-
-- Interface entièrement responsive qui s'adapte à tous les appareils (mobiles, tablettes, ordinateurs)
-- Design moderne et épuré avec des animations fluides
-- Navigation interactive avec menu mobile optimisé
-- Transitions douces entre les sections
+Déploiements réalisés:
+- Netlify: https://stirring-hamster-c9bb60.netlify.app/
+- Vercel: https://static-website-pi-six.vercel.app/
 
 ---
 
-### 1. Page internet statique
+### I) Site vitrine - Autres démos
 
-#### 1.2. Sections Principales
-
-- Section d'accueil (Hero) avec appel à l'action percutant
-- Présentation des services avec cartes animées
-- Section "À propos" détaillant l'histoire de l'entreprise
-- Carrousel de témoignages clients
-- Formulaire de contact avec validation
-- FAQ interactive avec animations d'expansion
+Déploiements additionnels:
+- GitHub Pages: https://eloisd.github.io/Archi_cloud_presentation/
+- GitHub Pages: https://eloisd.github.io/mcqgen/
+- Static.app: https://idealistic-woodpecker.static.domains/presentation3.pdf
+- Static.app: https://idealistic-woodpecker.static.domains/snake.html
+- Claude.ai: https://claude.site/artifacts/82709da2-6c6c-4668-b419-15a207f2a23d
 
 ---
 
-### 1. Page internet statique
+### II) Application MCQ Generator
 
-#### 1.3. Performance Technique
-
-- Temps de chargement optimisés grâce à Astro
-- Génération statique des pages pour une performance maximale
-- Images optimisées avec chargement progressif
-- Utilisation minimale de JavaScript pour une meilleure réactivité
-- Score de performance élevé sur PageSpeed Insights
-
---- 
-
-### 2. Petite application 
-
+- Déployée sur Heroku: https://mcqgen-c36b54936fcf.herokuapp.com/
+- Version AWS EC2 (non fonctionnelle par manque de crédits)
 
 ---
 
-### 3. prototype de SaaS
+### III) Prototype SaaS
 
-
+- Déploiement local via docker-compose
+- Version sur GCE (Google Compute Engine)
+- Accessible à http://34.47.28.2:4200/signin
