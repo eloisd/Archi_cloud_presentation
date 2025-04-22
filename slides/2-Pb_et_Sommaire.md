@@ -1,8 +1,8 @@
 ## Problématiques
 
 
-### - Selon certain cas d'application, quel peuvent être différents types de services Web à utiliser? 
-### - Comment déployerces cas d'application grâce au cloud computing ?
+### - Selon certain cas d'application, quel peuvent être différents types de services Web à utiliser ? 
+### - Comment déployer ces cas d'application grâce au cloud computing ?
 
 ---
 

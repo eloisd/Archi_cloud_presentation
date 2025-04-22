@@ -18,6 +18,9 @@ Un site internet statique est un site web qui servis directement au navigateur s
 
 ### 2. Petite application
 
+
+
 ---
 
 ### 3. prototype de SaaS
+

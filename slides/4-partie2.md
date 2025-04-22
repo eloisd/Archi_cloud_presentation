@@ -11,7 +11,7 @@
 
 ### 1. Page internet statique
 
-#### Déploiement sur Netlify
+#### 1.1. Déploiement sur Netlify
 
 - Déploiements automatiques depuis le dépôt Git
 - Pipeline d'intégration continue intégré
@@ -22,7 +22,11 @@
 - Interface d'administration intuitive
 - Possibilité de rollback en cas de problème
 
-#### Déploiement sur Vercel
+---
+
+### 1. Page internet statique
+
+#### 1.2. Déploiement sur Vercel
 
 - Déploiement sans configuration complexe
 - HTTPS automatique et gratuit

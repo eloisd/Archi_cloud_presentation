@@ -11,15 +11,18 @@
 
 ### 1. Page internet statique
 
-
-#### Design Adaptatif
+#### 1.1. Design Adaptatif
 
 - Interface entièrement responsive qui s'adapte à tous les appareils (mobiles, tablettes, ordinateurs)
 - Design moderne et épuré avec des animations fluides
 - Navigation interactive avec menu mobile optimisé
 - Transitions douces entre les sections
 
-#### Sections Principales
+---
+
+### 1. Page internet statique
+
+#### 1.2. Sections Principales
 
 - Section d'accueil (Hero) avec appel à l'action percutant
 - Présentation des services avec cartes animées
@@ -28,7 +31,11 @@
 - Formulaire de contact avec validation
 - FAQ interactive avec animations d'expansion
 
-#### Performance Technique
+---
+
+### 1. Page internet statique
+
+#### 1.3. Performance Technique
 
 - Temps de chargement optimisés grâce à Astro
 - Génération statique des pages pour une performance maximale
